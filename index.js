@@ -19,6 +19,12 @@ const menuTemplate = [
       {
         label: 'New Todo',
       },
+      {
+        label: 'Quit',
+        click() {
+          app.quit();
+        }
+      },
     ],
   },
 ];
